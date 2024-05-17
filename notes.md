@@ -38,9 +38,9 @@ Description of the app architecture (core, common, ..., kernel - main -> Explana
 ## IDE
 
 - VSCode
-    - Dart Extension and Hot Reload
-        - Hot Reload of extra things (like assets) through Run on save
-    - Other extensions:
+- Dart Extension and Hot Reload
+- Hot Reload of extra things (like assets) through Run on save
+- Other extensions:
         "vscjava.vscode-gradle",
         "dart-code.flutter",
         "mikestead.dotenv",
@@ -51,6 +51,7 @@ Description of the app architecture (core, common, ..., kernel - main -> Explana
         "pucelle.run-on-save"
 
 ## Lint
+
     - links
 
 ## Git flow
@@ -59,10 +60,10 @@ Description of the app architecture (core, common, ..., kernel - main -> Explana
 
 ## Tutorials
 
-
 ## Troubleshooting
 
 - Common issues like errors caused by the Podfile
 
 ## NEXT
-    - api
+
+- api
