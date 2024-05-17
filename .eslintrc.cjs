@@ -23,7 +23,6 @@ module.exports = {
       rules: {
         'no-undef': 'off',
         'no-unused-vars': 'off',
-        '@typescript-eslint/no-unused-vars': 'off',
       },
     },
     {
@@ -33,12 +32,7 @@ module.exports = {
       },
     },
   ],
-  parserOptions: {
-    ecmaVersion: 'latest',
-    parser: '@typescript-eslint/parser',
-    sourceType: 'module',
-  },
-  plugins: ['@typescript-eslint', 'vue', 'prettier'],
+  plugins: ['vue', 'prettier'],
   rules: {
     'prettier/prettier': 'error',
     indent: ['error', 2],
