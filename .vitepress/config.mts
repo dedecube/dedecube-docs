@@ -15,7 +15,7 @@ export default defineConfig({
   srcExclude: ['**/TODO.md'],
   lastUpdated: true,
   head: [
-    ['link', { rel: 'icon', href: '/assets/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/favicon.png' }],
     [
       'link',
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' }
@@ -30,7 +30,7 @@ export default defineConfig({
     ]
   ],
   themeConfig: {
-    logo: '/assets/logo.svg',
+    logo: '/logo.svg',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
