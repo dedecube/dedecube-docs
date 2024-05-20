@@ -1,4 +1,10 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
+import VitePressSidebar from 'vitepress-sidebar';
+
+const vitepressSidebarOptions = {
+  documentRootPath: '/src',
+  excludeFiles: ['TODO.md'],
+};
 
 export default defineConfig({
   title: "Mobile Documentation",
@@ -35,16 +41,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
-    // sidebar: [
-    //   {
-    //     text: 'Examples',
-    //     items: [
-    //       { text: 'Markdown Examples', link: '/markdown-examples' },
-    //       { text: 'Runtime API Examples', link: '/api-examples' }
-    //     ]
-    //   }
-    // ],
-
+    sidebar: VitePressSidebar.generateSidebar(vitepressSidebarOptions),
     socialLinks: [
       { icon: 'github', link: 'https://github.com/dedecube' }
     ]
