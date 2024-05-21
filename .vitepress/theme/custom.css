@@ -1,3 +1,10 @@
 body {
   font-family: 'Ubuntu', sans-serif;
 }
+
+.dark .go-to-top {
+  
+    background-color: #333 !important;
+    color: #fff !important;
+  
+}
