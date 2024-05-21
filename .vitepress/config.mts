@@ -33,10 +33,32 @@ export default defineConfig({
     logo: '/logo.svg',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Guide', link: '/introduction/'},
+      { text: 'Integrations', link: '/integrations/'},       
+    ],
+    sidebar: [
+      {
+        text: 'Prologue',
+        items: [
+          { text: 'Introduction', link: '/introduction/' },
+        ]
+      },
+      {
+        text: 'Getting Started',
+        items: [
+          { text: 'Introduction', link: '/getting-started/' },
+          { text: 'Item B', link: '/item-b' },
+        ]
+      },
+      {
+        text: 'Architecture Concepts',
+        items: [
+          { text: 'Overview', link: '/architecture-concepts/' },
+        ]
+      }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/dedecube' }
+      { icon: 'github', link: 'https://github.com/dedecube' },
     ]
   }
 })
