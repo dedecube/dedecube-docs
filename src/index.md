@@ -4,22 +4,22 @@ layout: home
 
 hero:
   name: "Dedecube Mobile Documentation"
-  text: "Comprehensive guides and resources for developing and deploying Dedecube Flutter mobile applications."
-  tagline: My great project tagline
+  text: "Guides and resources for Dedecube's Flutter mobile app development."
+  tagline: "Empowering developers with streamlined mobile solutions"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Getting started
+      link: /getting-started/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Architecture concepts
+      link: /architecture-concepts
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Intuitive Design
+    details: Our platform is built with user-friendliness in mind, making it straightforward for developers to start and progress seamlessly with Dedecube’s mobile development tools.
+  - title: Rich Features
+    details: Packed with a wealth of features, Dedecube empowers developers to create sophisticated and high-performance mobile applications with ease.
+  - title: Simplified Solutions
+    details: Focused on ‘simplicity first,’ we’ve addressed and simplified the most common challenges in mobile development, enabling you to concentrate on innovation and efficiency.
 ---
 
