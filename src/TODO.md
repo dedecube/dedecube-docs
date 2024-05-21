@@ -64,6 +64,11 @@ Description of the app architecture (core, common, ..., kernel - main -> Explana
 
 - Common issues like errors caused by the Podfile
 
+## UI
+
+- check logo
+- palette colori
+  
 ## NEXT
 
 - api
