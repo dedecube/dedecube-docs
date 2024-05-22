@@ -12,7 +12,7 @@ hero:
       link: /introduction/
     - theme: alt
       text: Architecture concepts
-      link: /architecture-concepts
+      link: /architecture-concepts/
 
 features:
   - title: Intuitive Design
@@ -20,6 +20,6 @@ features:
   - title: Rich Features
     details: Packed with a wealth of features, Dedecube empowers developers to create sophisticated and high-performance mobile applications with ease.
   - title: Simplified Solutions
-    details: Focused on ‘simplicity first,’ we’ve addressed and simplified the most common challenges in mobile development, enabling you to concentrate on innovation and efficiency.
+    details: Focused on ‘simplicity first’ we’ve addressed and simplified the most common challenges in mobile development, enabling you to concentrate on innovation and efficiency.
 ---
 
