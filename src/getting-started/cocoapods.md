@@ -4,16 +4,13 @@ title: Cocoapods
 
 ## Installing and Using CocoaPods
 
-CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects. It has thousands of libraries and can help you scale your projects elegantly. Below are the steps to install and use CocoaPods on a Mac.
+CocoaPods is a dependency manager for iOS and MacOS projects, crucial for integrating Flutter libraries efficiently. This guide will show you how to install and use CocoaPods.
 
 ## Installation
 
-1. **Install Homebrew**: If you don't have Homebrew installed, open Terminal and run:
+1. **Install CocoaPods**: install CocoaPods by brew:
 
    ```bash
-   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   /bin/bash -c "brew install cocoapods"
 
-2. **Install CocoaPods**: Once Homebrew is installed, you can install CocoaPods by running:
-
-   ```bash
-   brew install cocoapods
+For more details, consult the official CocoaPods documentation [here](https://guides.cocoapods.org/).

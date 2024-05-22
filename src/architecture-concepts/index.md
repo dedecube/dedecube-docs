@@ -1,3 +1,5 @@
-# Architecture
+---
+title: Architecture concepts
+---
 
-WIP.
+WIP
