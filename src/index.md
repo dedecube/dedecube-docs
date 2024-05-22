@@ -8,8 +8,8 @@ hero:
   tagline: "Empowering developers with streamlined mobile solutions"
   actions:
     - theme: brand
-      text: Getting started
-      link: /getting-started/
+      text: Prologue
+      link: /introduction/
     - theme: alt
       text: Architecture concepts
       link: /architecture-concepts
