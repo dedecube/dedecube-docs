@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
-  title: "Mobile Documentation",
+  title: "dedecube",
   description: "Comprehensive guides and resources for developing and deploying Dedecube Flutter mobile applications.",
   srcDir: './src',
   lang: 'en-US',
