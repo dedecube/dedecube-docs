@@ -11,6 +11,7 @@ CocoaPods is a dependency manager for iOS and MacOS projects, crucial for integr
 1. **Install CocoaPods**: install CocoaPods by brew:
 
    ```bash
-   /bin/bash -c "brew install cocoapods"
+   brew install cocoapods
+   ```
 
 For more details, consult the official CocoaPods documentation [here](https://guides.cocoapods.org/).

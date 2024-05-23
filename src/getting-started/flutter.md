@@ -18,7 +18,7 @@ FVM is a powerful CLI tool designed to manage multiple Flutter SDK versions, mak
 2. **Install Flutter SDK**: Use FVM to install and manage different Flutter SDK versions. Start by installing a specific version:
 
    ```bash
-   fvm install <version>  # Replace <version> with the desired Flutter version, like 2.8.1
+   fvm install <version>
    ```
 
 ## Configuring FVM for Your Project
