@@ -1,4 +1,4 @@
-# Getting Started: Setting Up Our Development Environment
+# Setting Up Our Development Environment
 
 Welcome to the "Getting Started" section of our documentation. In this guide, we will walk you through the setup process that we use for our development computers. This section is designed to ensure that you have all the necessary tools and configurations to start working efficiently with our systems.
 

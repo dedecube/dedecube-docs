@@ -3,7 +3,7 @@ title: Homebrew
 order: 1
 ---
 
-## Installing Homebrew on your mac
+## Installing Homebrew
 
 Homebrew is a powerful package manager for macOS, simplifying the installation and management of software.
 

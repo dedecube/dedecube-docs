@@ -2,7 +2,7 @@
 title: Flutter
 ---
 
-## Using Flutter with FVM (Flutter Version Manager)
+## Installing and Using Flutter with FVM (Flutter Version Manager)
 
 FVM is a powerful CLI tool designed to manage multiple Flutter SDK versions, making it ideal for maintaining consistent development environments and ensuring compatibility across different projects.
 
