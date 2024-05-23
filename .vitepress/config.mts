@@ -47,7 +47,12 @@ export default defineConfig({
         text: 'Getting Started',
         items: [
           { text: 'Introduction', link: '/getting-started/' },
-          { text: 'Item B', link: '/item-b' },
+          { text: 'Xcode', link: '/getting-started/xcode' },
+          { text: 'Android Studio', link: '/getting-started/android-studio' },
+          { text: 'Homebrew', link: '/getting-started/homebrew' },
+          { text: 'Cocoapods', link: '/getting-started/cocoapods' },
+          { text: 'Flutter', link: '/getting-started/flutter' },
+          { text: 'Visual Studio Code', link: '/getting-started/visual-studio-code' },
         ]
       },
       {
