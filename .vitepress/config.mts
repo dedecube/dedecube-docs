@@ -12,7 +12,6 @@ export default defineConfig({
       lang: 'en'
     },
   },
-  srcExclude: ['**/TODO.md'],
   lastUpdated: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
