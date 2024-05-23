@@ -1,4 +1,9 @@
-# Getting Started with Dedecube Architecture
+---
+title: Introduction
+next: false
+---
+
+## Getting Started with Dedecube Architecture
 
 Welcome to the documentation for the Dedecube Mobile Architecture. This guide is designed to provide developers with a clear understanding of the structure and foundational concepts of our system. Here, you will find comprehensive details about how the components interact and how you can leverage these interactions to build robust applications.
 

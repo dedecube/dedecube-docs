@@ -1,5 +1,7 @@
 ---
 title: Linting Rules
+prev: false
+next: false
 ---
 
 ## Overview

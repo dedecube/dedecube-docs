@@ -1,4 +1,9 @@
-# Setting Up Our Development Environment
+---
+title: Getting Started 
+prev: false
+---
+
+## Setting Up Our Development Environment
 
 Welcome to the "Getting Started" section of our documentation. In this guide, we will walk you through the setup process that we use for our development computers. This section is designed to ensure that you have all the necessary tools and configurations to start working efficiently with our systems.
 
@@ -8,9 +13,8 @@ Our setup process includes a mix of steps that you may already be familiar with,
 
 ## What to Expect
 
-- **Standard Tools Installation**: We'll cover the installation of common tools like Git, text editors, and other essentials that form the foundation of our development environment.
+- **Standard Tools Installation**: We'll cover the installation of common tools like IDE, and other essentials that form the foundation of our development environment.
 - **Specific Configurations**: Learn about the unique configurations we apply to our systems to optimize performance and compatibility with our projects.
-- **Environment-Specific Dependencies**: Introduction to any dependencies that are specific to the Dedecube architecture, including versioning specifics for tools like CocoaPods, Flutter, and more.
 - **Best Practices**: Tips and tricks to make the most out of the development environment, ensuring you're aligned with our team's workflow.
 
 By following this guide, you'll be well-prepared to dive into development with a setup that mirrors our team's optimized environment.

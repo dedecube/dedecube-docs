@@ -1,20 +1,25 @@
-# Git Standard Flow
+---
+title: Git Flow
+prev: false
+---
+
+## Git Standard Flow
 
 This is the official Dedecube Git Standard Flow.
 
 ## Table of Contents
 
 - [Git Standard Flow](#git-standard-flow)
-  - [Table of Contents](#table-of-contents)
-  - [Why](#why)
-  - [Branch](#branch)
-    - [Fixed](#fixed)
-    - [Temporary](#temporary)
-  - [Workflow](#workflow)
-  - [Commit Message](#commit-message)
-    - [Standard Format](#standard-format)
-    - [Behaviour Rules](#behaviour-rules)
-  - [FAQ](#faq)
+- [Table of Contents](#table-of-contents)
+- [Why](#why)
+- [Branch](#branch)
+  - [Fixed](#fixed)
+  - [Temporary](#temporary)
+- [Workflow](#workflow)
+- [Commit Message](#commit-message)
+  - [Standard Format](#standard-format)
+  - [Behaviour Rules](#behaviour-rules)
+- [FAQ](#faq)
 
 ## Why
 

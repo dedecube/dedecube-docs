@@ -1,5 +1,6 @@
 ---
 title: Visual Studio Code
+next: false
 ---
 
 ## Using Visual Studio Code for Development

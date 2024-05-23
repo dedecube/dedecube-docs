@@ -72,7 +72,7 @@ export default defineConfig({
       {
         text: 'Lint',
         items: [
-          { text: 'Overview', link: '/lint/overview' },
+          { text: 'Overview', link: '/lint/' },
         ]
       },
       {
