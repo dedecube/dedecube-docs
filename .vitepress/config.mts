@@ -57,9 +57,35 @@ export default defineConfig({
       {
         text: 'Architecture Concepts',
         items: [
-          { text: 'Overview', link: '/architecture-concepts/' },
+          { text: 'Overview', link: '/architecture/' },
         ]
-      }
+      },
+      {
+        text: 'Integrations',
+        items: [
+          { text: 'Overview', link: '/integrations/' },
+        ]
+      },
+      {
+        text: 'Lint',
+        items: [
+          { text: 'Overview', link: '/lint/' },
+        ]
+      },
+      {
+        text: 'Git Flow',
+        items: [
+          { text: 'Overview', link: '/git-flow/' },
+        ]
+      },
+      {
+        text: 'Support',
+        items: [
+          { text: 'Do and dont\'s', link: '/support/do-and-donts' },
+          { text: 'Troubleshooting', link: '/support/troubleshooting' },
+          { text: 'Tutorials', link: '/support/tutorials' },
+        ]
+      },
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/dedecube' },
