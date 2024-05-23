@@ -6,6 +6,8 @@ hero:
   name: "Dedecube Mobile Documentation"
   text: "Guides and resources for Dedecube's Flutter mobile app development."
   tagline: "Empowering developers with streamlined mobile solutions"
+  image:
+    src: /logo.svg
   actions:
     - theme: brand
       text: Prologue
