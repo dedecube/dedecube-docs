@@ -63,7 +63,10 @@ export default defineConfig({
       {
         text: 'Integrations',
         items: [
-          { text: 'Overview', link: '/integrations/' },
+          { text: 'Introduction', link: '/integrations/' },
+          { text: 'Tutorials', link: '/integrations/tutorials' },
+          { text: 'Do and dont\'s', link: '/integrations/do-and-donts' },
+          { text: 'Troubleshooting', link: '/integrations/troubleshooting' },
         ]
       },
       {
@@ -76,14 +79,6 @@ export default defineConfig({
         text: 'Git Flow',
         items: [
           { text: 'Overview', link: '/git-flow/' },
-        ]
-      },
-      {
-        text: 'Support',
-        items: [
-          { text: 'Do and dont\'s', link: '/support/do-and-donts' },
-          { text: 'Troubleshooting', link: '/support/troubleshooting' },
-          { text: 'Tutorials', link: '/support/tutorials' },
         ]
       },
     ],
