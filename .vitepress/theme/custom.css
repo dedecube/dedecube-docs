@@ -52,3 +52,7 @@ body {
     background-color: #333 !important;
     color: #fff !important;
 }
+
+.VPSocialLinks.VPNavBarSocialLinks.social-links {
+  margin-right: 0;
+}

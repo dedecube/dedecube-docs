@@ -1,6 +1,21 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
+  vite: {
+    optimizeDeps: {
+      include: [
+        '@nolebase/vitepress-plugin-enhanced-readabilities > @nolebase/ui > @rive-app/canvas',
+      ],
+      exclude: [
+        '@nolebase/vitepress-plugin-enhanced-readabilities/client',
+      ],
+    },
+    ssr: {
+      noExternal: [
+        '@nolebase/vitepress-plugin-enhanced-readabilities',
+      ],
+    },
+  },
   title: "dedecube",
   description: "Comprehensive guides and resources for developing and deploying Dedecube Flutter mobile applications.",
   srcDir: './src',
@@ -9,24 +24,15 @@ export default defineConfig({
   locales: {
     root: {
       label: 'English',
-      lang: 'en'
+      lang: 'en',
     },
   },
   lastUpdated: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
-    [
-      'link',
-      { rel: 'preconnect', href: 'https://fonts.googleapis.com' }
-    ],
-    [
-      'link',
-      { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }
-    ],
-    [
-      'link',
-      { href: 'https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap', rel: 'stylesheet' }
-    ]
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['link', { href: 'https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap', rel: 'stylesheet' }],
   ],
   themeConfig: {
     logo: '/logo.svg',
@@ -40,7 +46,7 @@ export default defineConfig({
         text: 'Prologue',
         items: [
           { text: 'Introduction', link: '/introduction/' },
-        ]
+        ],
       },
       {
         text: 'Getting Started',
