@@ -32,8 +32,8 @@ export default defineConfig({
     logo: '/logo.svg',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/introduction/'},
-      { text: 'Integrations', link: '/integrations/'},       
+      { text: 'Guide', link: '/introduction/' },
+      { text: 'Implementations', link: '/implementations/' },
     ],
     sidebar: [
       {
@@ -61,12 +61,12 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Integrations',
+        text: 'Implementations',
         items: [
-          { text: 'Introduction', link: '/integrations/' },
-          { text: 'Tutorials', link: '/integrations/tutorials' },
-          { text: 'Do and dont\'s', link: '/integrations/do-and-donts' },
-          { text: 'Troubleshooting', link: '/integrations/troubleshooting' },
+          { text: 'Introduction', link: '/implementations/' },
+          { text: 'Tutorials', link: '/implementations/tutorials' },
+          { text: 'Do and dont\'s', link: '/implementations/do-and-donts' },
+          { text: 'Troubleshooting', link: '/implementations/troubleshooting' },
         ]
       },
       {
