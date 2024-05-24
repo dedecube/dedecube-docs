@@ -13,6 +13,7 @@ export default defineConfig({
     ssr: {
       noExternal: [
         '@nolebase/vitepress-plugin-enhanced-readabilities',
+        '@nolebase/ui',
       ],
     },
   },
