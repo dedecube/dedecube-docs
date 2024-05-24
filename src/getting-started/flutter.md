@@ -29,7 +29,7 @@ FVM is a powerful CLI tool designed to manage multiple Flutter SDK versions, mak
    fvm use <version>
    ```
 
-2. **Update IDE Settings**: For Visual Studio Code, set the Flutter SDK path to use FVM. Modify your `settings.json` to include:
+2. **Update IDE Settings**: Set the Flutter SDK path to use FVM. Modify your `settings.json` to include:
 
     ```json
    {
@@ -37,12 +37,18 @@ FVM is a powerful CLI tool designed to manage multiple Flutter SDK versions, mak
    }
    ```
 
-## Tips and Tricks
+## Useful commands
 
-- **Automate SDK Updates**: Use FVM to quickly switch between Flutter versions or update to the latest version without affecting global settings.
-- **Optimize Your Workflow**: Include the `.fvm` folder in your `.gitignore` to keep the project lightweight and ensure that each team member uses the correct Flutter SDK version.
-- **Leverage Advanced FVM Features**: Explore commands like `fvm list` to see all installed Flutter versions and `fvm global` to set a default version for new projects.
+1. **Multiple Version Management:** Utilize fvm list to see all installed versions, helping you manage and switch between them effortlessly:
 
-By integrating FVM into your Flutter development workflow, you can enhance efficiency, maintain consistency across environments, and easily switch between multiple SDK versions.
+   ```bash
+   fvm list
+   ```
 
-For more comprehensive guidance, check out the official documentation on [FVM's website](https://fvm.app/documentation/getting-started/installation) and explore detailed usage tips [here](https://www.dhiwise.com/post/mastering-fvm-the-toolkit-for-flutter-sdk-version-management).
+2  **Set a Global Default Version**: For consistency across projects, you can set a global default Flutter version that FVM will default to for any new project:
+
+   ```bash
+   fvm global <version>
+   ```
+
+For more comprehensive guidance, check out the official documentation on [FVM's website](https://fvm.app/documentation/getting-started/installation).
