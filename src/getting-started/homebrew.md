@@ -26,3 +26,20 @@ Homebrew is a powerful package manager for macOS, simplifying the installation a
    ```bash
    source ~/.zshrc
    ```
+
+## Useful commands
+
+Upgrade Installed Packages:
+Keep your software up-to-date by upgrading all installed packages. This ensures you have the latest features and security updates.
+
+```bash
+brew upgrade
+```
+
+Cleanup Old Packages: over time, Homebrew accumulates older versions of installed packages. Regularly clean up these to free disk space and maintain a clean environment.
+
+```bash
+brew cleanup
+```
+
+For more detailed information and troubleshooting tips, visit the [Homebrew Documentation](https://docs.brew.sh).
