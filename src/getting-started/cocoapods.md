@@ -14,4 +14,12 @@ CocoaPods is a dependency manager for iOS and MacOS projects, crucial for integr
    brew install cocoapods
    ```
 
+## Updating CocoaPods Repository
+
+For efficient management of library dependencies in iOS, it's important to keep your local spec repositories updated. To update run the following command in your terminal:
+
+```bash
+pod repo update
+```
+
 For more details, consult the official CocoaPods documentation [here](https://guides.cocoapods.org/).
