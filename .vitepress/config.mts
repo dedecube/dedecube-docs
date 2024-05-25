@@ -45,12 +45,14 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Prologue',
+        collapsed: true,
         items: [
           { text: 'Introduction', link: '/introduction/' },
         ],
       },
       {
         text: 'Getting Started',
+        collapsed: true,
         items: [
           { text: 'Introduction', link: '/getting-started/' },
           { text: 'Xcode', link: '/getting-started/xcode' },
@@ -63,12 +65,14 @@ export default defineConfig({
       },
       {
         text: 'Architecture Concepts',
+        collapsed: true,
         items: [
           { text: 'Overview', link: '/architecture/' },
         ]
       },
       {
         text: 'Implementations',
+        collapsed: true,
         items: [
           { text: 'Introduction', link: '/implementations/' },
           { text: 'Tutorials', link: '/implementations/tutorials' },
@@ -78,12 +82,14 @@ export default defineConfig({
       },
       {
         text: 'Lint',
+        collapsed: true,
         items: [
           { text: 'Overview', link: '/lint/' },
         ]
       },
       {
         text: 'Git Flow',
+        collapsed: true,
         items: [
           { text: 'Overview', link: '/git-flow/' },
         ]
