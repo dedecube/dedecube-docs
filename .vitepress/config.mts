@@ -91,7 +91,11 @@ export default defineConfig({
         text: 'Git Flow',
         collapsed: true,
         items: [
-          { text: 'Overview', link: '/git-flow/' },
+          { text: 'Introduction', link: '/git-flow/' },
+          { text: 'Branch', link: '/git-flow/branch' },
+          { text: 'Commit', link: '/git-flow/commit' },
+          { text: 'Workflow', link: '/git-flow/workflow' },
+          { text: 'FAQ', link: '/git-flow/faq' },
         ]
       },
     ],
