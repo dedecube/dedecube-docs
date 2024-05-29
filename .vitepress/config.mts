@@ -1,7 +1,16 @@
+import { GitChangelog, GitChangelogMarkdownSection, } from '@nolebase/vitepress-plugin-git-changelog/vite';
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
   vite: {
+    plugins: [
+      GitChangelog
+      ({ 
+              repoURL: () => 'https://github.com/dedecube/mobile-documentation.git', 
+            }), 
+            GitChangelogMarkdownSection
+      (),
+    ],
     optimizeDeps: {
       include: [
         '@nolebase/vitepress-plugin-enhanced-readabilities > @nolebase/ui > @rive-app/canvas',
