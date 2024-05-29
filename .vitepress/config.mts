@@ -14,6 +14,7 @@ export default defineConfig({
       noExternal: [
         '@nolebase/vitepress-plugin-enhanced-readabilities',
         '@nolebase/ui',
+        '@nolebase/vitepress-plugin-highlight-targeted-heading', 
       ],
     },
   },
