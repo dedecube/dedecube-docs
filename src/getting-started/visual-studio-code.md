@@ -13,7 +13,76 @@ Visual Studio Code is our chosen IDE for its robust features, flexibility, and e
 
 ## Configuring VSCode for Flutter
 
-***!SECTION
+To ensure that Visual Studio Code is optimally set up for Flutter development, particularly when using FVM, specific configurations need to be applied. These settings help manage project dependencies, organize imports, and exclude certain files from the editor's watch scope to improve performance and usability.
+
+### Essential Settings
+
+Update your `settings.json` in VSCode as follows to align with our development standards:
+
+```json
+{
+  "dart.flutterSdkPath": ".fvm/versions/3.19.6", // Example version
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/*.g.dart": true,
+    "**/.fvm": true,
+    "**/.dart_tool": true,
+    "**/.idea": true,
+    "**/build": true,
+    "**/fastlane": true,
+    "codemagic.yaml": true,
+    "Gemfile*": true,
+    ".flutter-plugins": true,
+    ".flutter-plugins-dependencies": true,
+    "custom_lint.log": true,
+    "**/*.tailor.dart": true
+  },
+  "search.exclude": {
+    "/.fvm": true,
+    "/.dart_tool": true,
+    "/.idea": true,
+    "/build": true,
+    "**/fastlane": true,
+    "codemagic.yaml": true,
+    "Gemfile*": true,
+    "**/*.tailor.dart": true
+  },
+  "files.watcherExclude": {
+    "/.fvm": true,
+    "/.dart_tool": true,
+    "/.idea": true,
+    "/build": true,
+    "**/fastlane": true,
+    "codemagic.yaml": true,
+    "Gemfile*": true
+  },
+  "runOnSave.commands": [
+    {
+      "globMatch": "**/assets/**",
+      "command": "flutter.hotReload",
+      "runIn": "vscode"
+    }
+  ]
+}
+```
+
+Key Configuration Details
+
+  • Flutter SDK Path: Set to use a specific version managed by FVM, ensuring all team members are aligned with the same Flutter version.
+  • Code Actions on Save: Automatically organizes imports and applies fixes on file save, streamlining coding consistency and cleanliness.
+  • File and Search Exclusions: Excludes build directories, version control artifacts, and other non-essential files from VSCode’s watch scope, improving editor performance and search efficiency.
+  • Run Commands on File Save: Configures automatic actions like hot reload on saving files within specific directories, enhancing development workflow. For example, setting up the IDE to automatically trigger Flutter's hot reload when files in the `assets` directory are saved ensures that any changes to resources are immediately reflected in the application.
+
+Applying these settings will help maintain a clean, efficient, and standardized development environment for all project team members using Visual Studio Code for Flutter projects.
 
 ## Recommended VSCode Extensions
 
