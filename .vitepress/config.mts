@@ -1,7 +1,9 @@
 import { GitChangelog, GitChangelogMarkdownSection, } from '@nolebase/vitepress-plugin-git-changelog/vite';
 import { defineConfig } from 'vitepress';
+import { withMermaid } from "vitepress-plugin-mermaid";
 
-export default defineConfig({
+export default withMermaid(
+  defineConfig({
   vite: {
     plugins: [
       GitChangelog
@@ -113,4 +115,4 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/dedecube' },
     ]
   }
-})
+}));
