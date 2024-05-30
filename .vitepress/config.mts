@@ -122,6 +122,14 @@ export default withMermaid(
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/dedecube' },
-    ]
+    ], 
+    search: {
+      provider: 'algolia',
+      options: {
+        appId: 'QJ7KX7UXCG',
+        apiKey: 'c35677872fdaa8de791b796b4a87f50a',
+        indexName: 'docs-mobile'
+      }
+    },
   }
 }));
