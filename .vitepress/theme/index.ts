@@ -1,23 +1,25 @@
 
 import {
+  NolebaseEnhancedReadabilitiesMenu,
+  NolebaseEnhancedReadabilitiesScreenMenu,
+} from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
+import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
+import {
   NolebaseGitChangelogPlugin
 } from '@nolebase/vitepress-plugin-git-changelog/client'
 import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
+import {
+  NolebaseHighlightTargetedHeading,
+} from '@nolebase/vitepress-plugin-highlight-targeted-heading/client'
+import {
+  NolebaseInlineLinkPreviewPlugin,
+} from '@nolebase/vitepress-plugin-inline-link-preview/client'
+import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css'
 import vitepressBackToTop from 'vitepress-plugin-back-to-top'
 import 'vitepress-plugin-back-to-top/dist/style.css'
 import DefaultTheme from 'vitepress/theme-without-fonts'
 import { h } from 'vue'
 import './custom.css'
-
-import {
-  NolebaseEnhancedReadabilitiesMenu,
-  NolebaseEnhancedReadabilitiesScreenMenu,
-} from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
-import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
-
-import {
-  NolebaseHighlightTargetedHeading,
-} from '@nolebase/vitepress-plugin-highlight-targeted-heading/client'
 
 export default {
   ...DefaultTheme,
@@ -33,6 +35,7 @@ export default {
       threshold: 300,
     });
     app.use(NolebaseGitChangelogPlugin);
+    app.use(NolebaseInlineLinkPreviewPlugin);
   },
   };
   

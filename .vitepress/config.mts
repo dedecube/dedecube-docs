@@ -1,7 +1,13 @@
 import { GitChangelog, GitChangelogMarkdownSection, } from '@nolebase/vitepress-plugin-git-changelog/vite';
+import { InlineLinkPreviewElementTransform } from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it';
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
+  markdown: { 
+    config(md) { 
+      md.use(InlineLinkPreviewElementTransform) 
+    } 
+  },
   vite: {
     plugins: [
       GitChangelog
@@ -25,7 +31,7 @@ export default defineConfig({
         '@nolebase/ui',
         '@nolebase/vitepress-plugin-highlight-targeted-heading', 
       ],
-    },
+    }, 
   },
   title: "dedecube",
   description: "Comprehensive guides and resources for developing and deploying Dedecube Flutter mobile applications.",
