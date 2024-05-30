@@ -71,6 +71,15 @@ export default withMermaid(
           { text: 'Android Studio', link: '/getting-started/android-studio' },
           { text: 'Homebrew', link: '/getting-started/homebrew' },
           { text: 'Cocoapods', link: '/getting-started/cocoapods' },
+          { text: 'Flutter', 
+            collapsed: true,
+            items: [
+              { text: 'Overview', link: '/getting-started/flutter/' },
+              { text: 'Install', link: '/getting-started/flutter/install' },
+              { text: 'Configuring', link: '/getting-started/flutter/configuring' },
+              { text: 'Useful commands', link: '/getting-started/flutter/useful-commands' }
+            ]
+          },
           { text: 'Flutter', link: '/getting-started/flutter' },
           { text: 'Visual Studio Code', link: '/getting-started/visual-studio-code' },
         ]
