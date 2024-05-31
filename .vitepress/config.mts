@@ -80,7 +80,6 @@ export default withMermaid(
               { text: 'Useful commands', link: '/getting-started/flutter/useful-commands' }
             ]
           },
-          { text: 'Flutter', link: '/getting-started/flutter' },
           { text: 'Visual Studio Code', link: '/getting-started/visual-studio-code' },
         ]
       },
