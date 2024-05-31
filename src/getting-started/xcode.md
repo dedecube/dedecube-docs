@@ -1,6 +1,5 @@
 ---
 title: Xcode
-order: 1
 ---
 
 ## Installing Xcode
@@ -32,7 +31,7 @@ To develop iOS applications using Flutter, Xcode is an indispensable tool. This 
 3. **Configure the iOS Simulator**: Open Xcode and set up the iOS Simulator for testing:
     - Navigate to Xcode’s Settings (Cmd + ,).
     - Select the “Platforms” tab.
-    - Download and install simulators for the iOS latest version.
+    - For each project, install simulators for the latest version of iOS and the oldest supported iOS version as specified by the project requirements. For instance, if your project supports from iOS 14 and the current iOS version is 17, ensure you have both iOS 14 and iOS 17 simulators installed.
 
 ## Testing on real devices
 

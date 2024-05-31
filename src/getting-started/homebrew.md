@@ -1,6 +1,5 @@
 ---
 title: Homebrew
-order: 1
 ---
 
 ## Installing Homebrew
