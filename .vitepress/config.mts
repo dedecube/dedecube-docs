@@ -77,7 +77,9 @@ export default withMermaid(
               { text: 'Overview', link: '/getting-started/flutter/' },
               { text: 'Install', link: '/getting-started/flutter/install' },
               { text: 'Configuring', link: '/getting-started/flutter/configuring' },
-              { text: 'Useful commands', link: '/getting-started/flutter/useful-commands' }
+              { text: 'Useful commands', link: '/getting-started/flutter/useful-commands' },
+              { text: 'External references', link: '/getting-started/flutter/external-references' }
+
             ]
           },
           { text: 'Visual Studio Code', link: '/getting-started/visual-studio-code' },
