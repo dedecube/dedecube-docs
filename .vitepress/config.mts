@@ -97,6 +97,7 @@ export default withMermaid(
         collapsed: true,
         items: [
           { text: 'Introduction', link: '/implementations/' },
+          { text: 'Firebase Config', link: '/implementations/firebase-config' },
           { text: 'Tutorials', link: '/implementations/tutorials' },
           { text: 'Do and dont\'s', link: '/implementations/do-and-donts' },
           { text: 'Troubleshooting', link: '/implementations/troubleshooting' },
