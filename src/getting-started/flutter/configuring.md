@@ -10,10 +10,10 @@ title: Configuring FVM
    fvm use <version>
    ```
 
-2. **Update IDE Settings**: Set the Flutter SDK path to use FVM. Modify your `settings.json` to include:
+2. **Check IDE Settings**: Ensure that the Flutter SDK path is correctly set. Verify that your `settings.json` includes the correct path:
 
     ```json
    {
-     "dart.flutterSdkPath": ".fvm/flutter_sdk"
+     "dart.flutterSdkPath": ".fvm/versions/3.19.6" // Example version
    }
    ```
