@@ -78,6 +78,7 @@ export default withMermaid(
               { text: 'Install', link: '/getting-started/flutter/install' },
               { text: 'Configuring', link: '/getting-started/flutter/configuring' },
               { text: 'Useful commands', link: '/getting-started/flutter/useful-commands' },
+              { text: 'Troubleshooting', link: '/getting-started/flutter/troubleshooting' },
               { text: 'External references', link: '/getting-started/flutter/external-references' }
 
             ]
