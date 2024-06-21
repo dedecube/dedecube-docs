@@ -98,7 +98,15 @@ export default withMermaid(
         collapsed: true,
         items: [
           { text: 'Introduction', link: '/implementations/' },
-          { text: 'Firebase Config', link: '/implementations/firebase-config' },
+          { text: 'Firebase', 
+            collapsed: true,
+            items: [
+              { text: 'Overview', link: '/implementations/firebase/' },
+              { text: 'Decryption', link: '/implementations/firebase/decryption' },
+              { text: 'Prestage-only access', link: '/implementations/firebase/prestage-only-access' },
+
+            ]
+          },
           { text: 'Tutorials', link: '/implementations/tutorials' },
           { text: 'Do and dont\'s', link: '/implementations/do-and-donts' },
           { text: 'Troubleshooting', link: '/implementations/troubleshooting' },
