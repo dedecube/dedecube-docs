@@ -15,7 +15,7 @@ hero:
       link: /introduction/
     - theme: alt
       text: Architecture concepts
-      link: /architecture-concepts/
+      link: /architecture/
 
 ---
 
