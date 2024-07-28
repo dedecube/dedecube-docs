@@ -84,6 +84,17 @@ Key Configuration Details
 
 Applying these settings will help maintain a clean, efficient, and standardized development environment for all project team members using Visual Studio Code for Flutter projects.
 
+## VSCode Task
+
+In our development process there are various VSCode tasks configured in the `tasks.json` file to help streamline your workflow. These tasks are designed to clean, build, and watch your Flutter project, as well as handle cache cleaning to avoid potential issues.
+
+- **build_runner: clean**: cleans the build files using `build_runner`.
+- **build_runner: watch**: watches for changes and rebuilds automatically, deleting any conflicting outputs.
+- **build_runner: build**: builds the project, deleting any conflicting outputs.
+- **build_runner: clean and watch**: sequentially cleans and then starts watching the project for changes.
+- **clean cache**: removed .build and .dart_tool.
+- **terminate all tasks: terminate all**: terminates all running tasks.
+
 ## Recommended VSCode Extensions
 
 To enhance your productivity and streamline your development workflow in Visual Studio Code, we recommend a set of extensions that complement our projects. These extensions support various aspects of development, from code management to environment setup.
