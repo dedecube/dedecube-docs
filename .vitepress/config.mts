@@ -104,7 +104,7 @@ export default withMermaid(
               { text: 'Overview', link: '/implementations/firebase/' },
               { text: 'Decryption', link: '/implementations/firebase/decryption' },
               { text: 'Prestage-only access', link: '/implementations/firebase/prestage-only-access' },
-
+              { text: 'Flavorizr', link: '/implementations/firebase/flavorizr' },
             ]
           },
           { text: 'Tutorials', link: '/implementations/tutorials' },
