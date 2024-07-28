@@ -10,8 +10,8 @@ title: Useful Commands
    fvm list
    ```
 
-2  **Set a Global Default Version**: For consistency across projects, you can set a global default Flutter version that FVM will default to for any new project:
+2. **Update single pub constraints**: Quickly update the version of pub in your pubspec.yaml with the following command:
 
    ```bash
-   fvm global <version>
+   pub add velvet_framework
    ```
