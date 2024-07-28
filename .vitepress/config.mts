@@ -117,6 +117,7 @@ export default withMermaid(
         collapsed: true,
         items: [
           { text: 'Overview', link: '/lint/' },
+          { text: 'Ignore rules', link: '/lint/ignore-rules' },
         ]
       },
       {
