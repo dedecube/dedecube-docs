@@ -13,5 +13,5 @@ title: Useful Commands
 2. **Update single pub constraints**: Quickly update the version of pub in your pubspec.yaml with the following command:
 
    ```bash
-   pub add velvet_framework
+   flutter pub add velvet_framework
    ```
