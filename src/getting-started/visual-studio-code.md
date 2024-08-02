@@ -21,7 +21,7 @@ Update your `settings.json` in VSCode as follows to align with our development s
 
 ```json
 {
-  "dart.flutterSdkPath": ".fvm/versions/3.19.6", // Example version
+  "dart.flutterSdkPath": ".fvm/versions/3.22.2", // Example version
   "editor.codeActionsOnSave": {
     "source.organizeImports": true,
     "source.fixAll": true
@@ -84,7 +84,18 @@ Key Configuration Details
 
 Applying these settings will help maintain a clean, efficient, and standardized development environment for all project team members using Visual Studio Code for Flutter projects.
 
-## VSCode Task
+## VSCode Launch
+
+This section describes the launch configurations for Visual Studio Code used to run and debug applications.
+
+- **Prestage**: launches with the prestage flavor. Includes build runner tasks.
+- **Prestage - Manual**: same as "Prestage" but without pre and post-launch tasks
+- **Stage**: launches in release mode with the stage flavor. Includes build runner tasks.
+- **Stage - Manual**: Same as "Stage" but without pre and post-launch tasks.
+- **Production**: Launches with the production flavor. Includes build runner tasks.
+- **Production - Manual**: Same as "Production" but without pre and post-launch tasks.
+
+## VSCode Tasks
 
 In our development process there are various VSCode tasks configured in the `tasks.json` file to help streamline your workflow. These tasks are designed to clean, build, and watch your Flutter project, as well as handle cache cleaning to avoid potential issues.
 
