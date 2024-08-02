@@ -35,7 +35,7 @@ After that, reload the window, kill the shell, and create a new one. To check if
 
 To avoid exposing Firebase configuration files for iOS and Android in the repository, we encrypt them with GPG. You can find the GPG key used in the “Docs” column on Trello. To decrypt the files, follow the instructions [here](/implementations/firebase/decryption).
 
-Note that for those with access only to Prestage, you need to first copy the Prestage files to Stage and Production, as described in the  [Prestage Only Access](/implementations/firebase/prestage-only-access/) section. The command to decrypt is as follows:
+Note that for those with access only to Prestage, you need to first copy the Prestage files to Stage and Production, as described in the  [Prestage Only Access](/implementations/firebase/prestage-only-access) section. The command to decrypt is as follows:
 
 Finally, run the following command:
 
