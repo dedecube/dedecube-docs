@@ -131,6 +131,18 @@ export default withMermaid(
           { text: 'FAQ', link: '/git-flow/faq' },
         ]
       },
+      {
+        text: 'API Documentation',
+        collapsed: true,
+        items: [
+          { text: 'Velvet Framework', link: 'https://pub.dev/documentation/velvet_framework/' },
+          { text: 'Velvet Support', link: 'https://pub.dev/documentation/velvet_support/' },
+          { text: 'Velvet Annotation', link: 'https://pub.dev/documentation/velvet_annotation/' },
+          { text: 'Velvet Generator', link: 'https://pub.dev/documentation/velvet_generator/' },
+          { text: 'Velvet Lints', link: 'https://pub.dev/documentation/velvet_lints/' },
+          { text: 'Velvet Custom Lints', link: 'https://pub.dev/documentation/velvet_custom_lints/' },
+        ]
+      },
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/dedecube' },
