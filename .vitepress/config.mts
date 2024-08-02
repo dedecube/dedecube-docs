@@ -87,6 +87,12 @@ export default withMermaid(
         ]
       },
       {
+        text: 'Onboarding',
+        collapsed: true,
+        items: [
+          { text: 'Overview', link: '/onboarding/' },
+        ]
+      },      {
         text: 'Architecture Concepts',
         collapsed: true,
         items: [
