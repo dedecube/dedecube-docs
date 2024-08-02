@@ -27,7 +27,7 @@ These files need to be decrypted to be used. Follow the steps below to do so.
 
 The passphrase required to decrypt the files is available on the project's Trello board. Retrieve the passphrase and insert it into the `.env` file in the following format:
 
-```env
+```bash
 GPG_PRESTAGE_CONFIG_PASSPHRASE=''
 ```
 
