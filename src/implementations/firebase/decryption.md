@@ -48,6 +48,7 @@ brew install gpg
 1. Download the GPG installer from the [GnuPG official website](https://www.gnupg.org/download/index.html).
 2. Run the installer and follow the instructions to complete the installation.
 3. Ensure the GPG executable is added to your system's PATH.
+4. Reload Visual Studio Code.
 
 ### Decrypting the Files
 
@@ -62,7 +63,15 @@ gpg \
   --yes \
   --decrypt \
   --passphrase ${GPG_PRESTAGE_CONFIG_PASSPHRASE} \
-  --output .env.prestage .env.prestage.gpg
+  --output config/prestage/GoogleService-Info.plist config/prestage/GoogleService-Info.plist.gpg
+
+gpg \
+  --quiet \
+  --batch \
+  --yes \
+  --decrypt \
+  --passphrase ${GPG_PRESTAGE_CONFIG_PASSPHRASE} \
+  --output config/prestage/google-services.json config/prestage/google-services.json.gpg
 ```
 
 #### Script for Windows Shell
@@ -74,9 +83,17 @@ gpg ^
   --yes ^
   --decrypt ^
   --passphrase %GPG_PRESTAGE_CONFIG_PASSPHRASE% ^
-  --output .env.prestage .env.prestage.gpg
+  --output config/prestage/google-services.json config/prestage/google-services.json.gpg
+
+gpg ^
+  --quiet ^
+  --batch ^
+  --yes ^
+  --decrypt ^
+  --passphrase %GPG_PRESTAGE_CONFIG_PASSPHRASE% ^
+  --output config/prestage/GoogleService-Info.plist config/prestage/GoogleService-Info.plist.gpg
 ```
 
 ### Notes
 
-- **Security Importance**: Ensure the passphrase is never shared publicly and that `.env` files are managed carefully to avoid accidental exposure.
+- **Security Importance**: Ensure the passphrase is never shared publicly and that files are managed carefully to avoid accidental exposure.
